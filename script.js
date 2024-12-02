@@ -7,6 +7,7 @@ document.getElementById('question').innerHTML = userQuestion
 randomNumber = Math.floor(Math.random() * 8)
 
 let eightBall = ''
+// let resImg = document.getElementById('image').src
 
 switch(randomNumber) {
   case 1:
