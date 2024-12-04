@@ -11,7 +11,7 @@ let resImage = ''
 
 if (randomNumber === 0) {
   eightBall = 'Do it.';
-  resImage = '<img src="imgs/wonderhoy.webp">';
+  resImage = '<img src="imgs/mafudare.png">';
 } else if (randomNumber === 1) {
   eightBall = 'It is certain';
   resImage = '<img src="imgs/wonderhoy.webp">';
@@ -20,7 +20,7 @@ if (randomNumber === 0) {
   resImage = '<img src="imgs/wonderhoy.webp">';
 } else if (randomNumber === 3) {
   eightBall = 'Reply hazy try again';
-  resImage = '<img src="imgs/wonderhoy.webp">';
+  resImage = '<img src="imgs/ichibwomp.png">';
 } else if (randomNumber === 4) {
   eightBall = 'Cannot predict now';
   resImage = '<img src="imgs/wonderhoy.webp">';
