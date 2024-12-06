@@ -1,0 +1,24 @@
+body {
+    color: white;
+    background-image: url('imgs/starrygif.gif');
+    background-size: cover;
+    padding-top: 5%;
+}
+
+img {
+    border-radius: 3%;
+    transition: 0.1s;
+}
+
+img:hover {
+    border: dotted 5px white
+}
+
+img#bell {
+    border-radius: 0 !important;
+    transition: 4s
+}
+
+img#bell:hover {
+    border: double 6px red !important
+}
