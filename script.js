@@ -19,7 +19,7 @@ if (randomNumber === 0) {
   eightBall = 'It is decidedly so';
   resImage = '<img src="imgs/wonderhoy.webp" style="height: 200px">';
 } else if (randomNumber === 3) {
-  eightBall = 'Reply hazy try again';
+  eightBall = 'Reply hazy, try again';
   resImage = '<img src="imgs/ichibwomp.png" style="height: 200px">';
 } else if (randomNumber === 4) {
   eightBall = 'Cannot predict now';

@@ -3,6 +3,9 @@ body {
     background-image: url('imgs/starrygif.gif');
     background-size: cover;
     padding-top: 2%;
+    font-family: "kopik", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 h1 {
@@ -17,8 +20,6 @@ h1 {
     font-style: italic;
     font-size: 60px;
 }
-
-
 
 /*Image stuff*/
 img {
@@ -45,4 +46,17 @@ button {
     color: white;
     border: 3px double white !important;
     border-radius: 3px;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: white !important;
+    color: black;
+    border: 5px solid black !important;
+    border-radius: 40px;
+    font-family: "kopik", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    box-shadow: 2px 2px 2px white;
+    font-size: 20px;
 }
