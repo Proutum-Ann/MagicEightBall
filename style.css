@@ -2,9 +2,25 @@ body {
     color: white;
     background-image: url('imgs/starrygif.gif');
     background-size: cover;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
+h1 {
+    font-family: "gimlet-display", serif;
+    font-style: normal;
+    font-size: 60px !important;
+}
+
+.title {
+    color: crimson;
+    font-family: "skope", serif;
+    font-style: italic;
+    font-size: 60px;
+}
+
+
+
+/*Image stuff*/
 img {
     border-radius: 3%;
     transition: 0.1s;
@@ -21,4 +37,12 @@ img#bell {
 
 img#bell:hover {
     border: double 6px red !important
+}
+
+/*The button*/
+button {
+    background-color: transparent !important;
+    color: white;
+    border: 3px double white !important;
+    border-radius: 3px;
 }
