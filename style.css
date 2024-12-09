@@ -37,7 +37,7 @@ img#bell {
 }
 
 img#bell:hover {
-    border: double 6px red !important
+    border: double 10px red !important
 }
 
 /*The button*/
